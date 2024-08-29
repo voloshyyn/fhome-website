@@ -13,7 +13,7 @@
 }
 
 .header__background {
-    background-image: url(/img/background-img.png);
+    background-image: url(../img/background-image.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 0%;
