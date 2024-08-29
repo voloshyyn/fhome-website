@@ -12,12 +12,6 @@
 
 }
 
-.header__background {
-    background-image: url(../img/background-image.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-}
 
 .header-nav__logo {
     width: 106px;
