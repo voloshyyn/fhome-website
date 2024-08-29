@@ -1,0 +1,12 @@
+.header-hero {
+    padding:30px 0 180px;
+}
+
+.header-hero__container {
+    padding:0 24px;
+}
+
+.header-hero__content {
+    margin:50px 0;
+    padding:0 15px;
+}

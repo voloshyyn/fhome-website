@@ -14,12 +14,16 @@
     --hover-nav-text:black;
     --icon-nav:rgb(140, 158, 138);
     --hover-icon-nav:rgb(117, 137, 116);
+    --navicon-burger-menu:black;
+    --nav-burger-menu-fill:#f7f4f0;
 }
 
 body {
     scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
 }
+
+
 
 h2 {
     font-family: "Archivo", sans-serif;
@@ -34,4 +38,8 @@ img {
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
 }
