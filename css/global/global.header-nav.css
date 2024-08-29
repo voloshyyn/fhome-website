@@ -5,24 +5,19 @@
 }
 
 .header-nav__container {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 
 }
 
-
-.header-nav__logo {
+.header-nav__logo-image {
     width: 106px;
     height: auto;
 }
 
-/*.header-nav__menu-list {
-    display:flex;
-    justify-content: center;
-    align-content:center;
-}*/
+
 
 .header-nav__menu-container {
     top: -100vh;
@@ -84,20 +79,22 @@
 }
 
 .header.nav-visible .header-nav__menu-container {
-        top: 80px;
+    top: 80px;
 }
+
 .header.nav-visible .header__background,
 .header.nav-visible .header-nav__menu-container {
-    background:var(--nav-burger-menu-fill);
+    background: var(--nav-burger-menu-fill);
 }
 
 .header.nav-visible .header__navicon {
-    background:transparent;
+    background: transparent;
 }
 
 .header.nav-visible .header__navicon::before {
     transform: rotate(-45deg);
 }
+
 .header.nav-visible .header__navicon::after {
     transform: rotate(45deg);
 }
@@ -108,7 +105,7 @@
 }
 
 .header-nav__menu-item {
-list-style-type: none;
+    list-style-type: none;
     margin: 12.5px 20px;
 }
 
@@ -166,4 +163,64 @@ list-style-type: none;
 .header-nav__socials-link:hover {
     fill: var(--hover-icon-nav);
     transition: 0.5s;
+}
+
+@media (min-width:770px) {
+    .header-nav {
+        padding: 0 32px;
+    }
+}
+
+@media (min-width:990px) {
+    .header-nav {
+        padding: 0 40px;
+    }
+
+    .header-nav__menu-btn {
+        display: none;
+    }
+
+    .header-nav__menu-container {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        order: 2;
+        gap: 8px;
+        padding: 0;
+    }
+
+    .header-nav__logo {
+        margin-right:80px;
+    }
+
+    .header-nav__menu-list {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: -12.5px -20px;
+    }
+
+    .header-nav__menu-link {
+        font-size: 11px;
+    }
+
+    .header-nav__socials {
+        margin:-5px -10px 0;
+    }
+}
+
+@media (min-width:1100px) {
+    .header-nav__logo {
+        margin-right: 100px;
+    }
+}
+
+@media (min-width:1200px) {
+    .header-nav__logo {
+        margin-right: 250px;
+    }
 }

@@ -4,13 +4,11 @@
 
 .header-hero__container {
     padding: 0 24px;
-    margin:0 -15px;
 }
 
 .header-hero__content {
     margin: 50px 0 0;
-    padding: 0 15px;
-    height:640px;
+    height: 600px;
 }
 
 .header-hero__number {
@@ -19,29 +17,29 @@
     font-weight: 700;
     letter-spacing: 2.2px;
     line-height: 18px;
-    text-align:center;
+    text-align: center;
 }
 
 .header-hero__title-block {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .header-hero__title {
-    font-size:48px;
+    font-size: 48px;
     font-family: "Archivo", sans-serif;
     font-weight: 700;
     line-height: 53px;
     letter-spacing: normal;
     text-align: center;
-    color:var( --hero-main-text);
+    color: var(--hero-main-text);
 
     .header-hero__title-span-letter {
-        color:var(--hero-main-text-letter);
+        color: var(--hero-main-text-letter);
     }
 }
 
 .header-hero__description-block {
-    margin-top:35px;
+    margin-top: 35px;
 }
 
 .header-hero__description {
@@ -50,10 +48,66 @@
     line-height: 27px;
     letter-spacing: normal;
     text-align: center;
-    color:var(--hero-description-text);
+    color: var(--hero-description-text);
 
     .header-hero__link {
-        color:var(--hero-description-text-link);
+        color: var(--hero-description-text-link);
+        font-weight:700;
     }
 }
 
+@media (min-width:500px) {
+    .header-hero__content {
+        height:508px;
+    }
+}
+
+@media (min-width:610px) {
+    .header-hero__content {
+        height:405px;
+    }
+}
+
+@media (min-width:770px) {
+    .header-hero__container {
+        padding:0 32px;
+    }
+
+    .header-hero__content {
+        margin:0;
+        padding:0 130px;
+        height:500px;
+    }
+    
+    .header-hero {
+        padding:100px 0 275px;
+    }
+
+    .header-hero__title {
+        font-size: 58px;
+        line-height: 64px;
+    }
+}
+
+@media (min-width:990px) {
+    .header-hero {
+        padding:110px 0 400px;
+    }
+
+    .header-hero__container {
+        padding:0 40px;
+    }
+
+    .header-hero__content {
+        height: 510px;
+    }
+
+    .header-hero__title {
+        font-size: 62px;
+        line-height: 68px;
+    }
+
+    .header-hero__description-block {
+        margin-top: 40px;
+    }
+}
