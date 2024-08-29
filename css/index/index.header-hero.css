@@ -13,7 +13,7 @@
 
 .header-hero__number {
     font-size: 11px;
-    color: var(--hero-number-text);
+    color: var(--number-text);
     font-weight: 700;
     letter-spacing: 2.2px;
     line-height: 18px;
@@ -32,10 +32,10 @@
     letter-spacing: normal;
     text-align: center;
     color: var(--hero-main-text);
+}
 
-    .header-hero__title-span-letter {
-        color: var(--hero-main-text-letter);
-    }
+.header-hero__title-span-letter {
+    color: var(--hero-main-text-letter);
 }
 
 .header-hero__description-block {
@@ -49,11 +49,11 @@
     letter-spacing: normal;
     text-align: center;
     color: var(--hero-description-text);
+}
 
-    .header-hero__link {
-        color: var(--hero-description-text-link);
-        font-weight:700;
-    }
+.header-hero__link {
+    color: var(--hero-description-text-link);
+    font-weight:700;
 }
 
 @media (min-width:500px) {
@@ -75,7 +75,7 @@
 
     .header-hero__content {
         margin:0;
-        padding:0 130px;
+        padding:0 140px;
         height:500px;
     }
     
@@ -105,6 +105,7 @@
     .header-hero__title {
         font-size: 62px;
         line-height: 68px;
+        text-align:center;
     }
 
     .header-hero__description-block {

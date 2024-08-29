@@ -11,7 +11,7 @@
 
 :root {
     --nav-text: #8D8D8D;
-    --hero-number-text: #8D8D8D;
+    --number-text: #8D8D8D;
     --hover-nav-text: black;
     --icon-nav: rgb(140, 158, 138);
     --hover-icon-nav: rgb(117, 137, 116);
@@ -21,6 +21,11 @@
     --hero-main-text-letter: #8C9E8A;
     --hero-description-text: #707070;
     --hero-description-text-link: #8C9E8A;
+    --offers-main-text: #2F3133;
+    --offers-description-text: #707070;
+    --offers-details-text: #8D8D8D;
+    --offers-item-text: #707070;
+    --offers-item-dash: #8C9E8A;
 
 }
 
