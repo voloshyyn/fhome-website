@@ -26,7 +26,9 @@
     --offers-details-text: #8D8D8D;
     --offers-item-text: #707070;
     --offers-item-dash: #8C9E8A;
-
+    --best-selling-main-text: #2F3133;
+    --best-selling-main-text-two-words: #8C9E8A;
+    --best-selling-subtitle-text: #8C9E8A;
 }
 
 header {
