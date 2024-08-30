@@ -29,6 +29,12 @@
     --best-selling-main-text: #2F3133;
     --best-selling-main-text-two-words: #8C9E8A;
     --best-selling-subtitle-text: #8C9E8A;
+    --best-selling-background-advertisement: #464c5c;
+    --best-selling-advertisement-text: #fff;
+    --best-selling-title-products: #2F3133;
+    --best-selling-price: #8C9E8A;
+    --best-selling-background-button: #8C9E8A;
+    --best-selling-button-text: #fff;
 }
 
 header {
