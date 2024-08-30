@@ -135,4 +135,6 @@ const Carousel = () => {
     React.useEffect(() => {
         setActiveIndex((length - (items[0] % length)) % length)
     }, [items]);
+
+    return 
 }
