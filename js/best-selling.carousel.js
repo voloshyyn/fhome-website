@@ -104,7 +104,7 @@ const Carousel = () => {
     const [activeIndex, setActiveIndex] = React.useState(0);
 
     const prevClick = (jump = 1) => {
-        if(!isTicking) {
+        if (!isTicking) {
             setIsTicking(true);
             setItems((prev) => {
                 return prev.map((_, i) => prev[(i + jump) % bigLength]);
@@ -113,7 +113,7 @@ const Carousel = () => {
     };
 
     const nextClick = (jump = 1) => {
-        if(!isTicking) {
+        if (!isTicking) {
             setIsTicking(true);
             setItems((prev) => {
                 return prev.map((_, i) => prev[(i - jump + bigLength) % bigLength]);
@@ -122,9 +122,17 @@ const Carousel = () => {
     };
 
     const handleDotClick = (index) => {
-        if(index < activeIndex) prevClick(activeIndex - index);
-        if(index > activeIndex) nextclick(index - activeIndex);
+        if (index < activeIndex) prevClick(activeIndex - index);
+        if (index > activeIndex) nextClick(index - activeIndex);
     };
 
+    React.useEffect(() => {
+        if (isTicking) {
+            sleep(300).then(() => setIsTicking(false));
+        }
+    }, [isTicking]);
 
+    React.useEffect(() => {
+        setActiveIndex((length - (items[0] % length)) % length)
+    }, [items]);
 }
