@@ -55,7 +55,6 @@
     color: var(--best-selling-advertisement-text);
     background-color: var(--best-selling-background-advertisement);
     border-radius: 4px;
-    cursor: pointer;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
@@ -131,4 +130,18 @@
     font-weight: 700;
     line-height: 18px;
     letter-spacing: normal;
+}
+
+.slick-arrow {
+    position: absolute;
+    top:48vh;
+    z-index: 3;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
 }

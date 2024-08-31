@@ -11,6 +11,7 @@
     <script src="https://unpkg.com/htmx.org@1.9.10"
         integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
 </head>
 
 <body>
@@ -19,8 +20,12 @@
         <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></section>
     </header>
     <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-offers.partial.html"></section>
-    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-best-selling.partial.html"></section>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-best-selling.partial.html">
+    </section>
     <script type="module" src="./js/index.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 
 </html>
