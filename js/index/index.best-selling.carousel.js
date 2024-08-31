@@ -4,18 +4,18 @@ $(document).ready(function() {
     infinite: true,
     speed: 300,
     slidesToShow: 3,
-    slidesToscroll: 1,
+    slidesToScroll: 1,
     responsive: [
        {
          breakpoint: 990,
-        setting: {
+        settings: {
             slidesToShow: 2,
             infinite: true
         }
     },
     {
-        breakpoint: 767,
-        setting: {
+        breakpoint: 768,
+        settings: {
             slidesToShow: 1
         }
     }
