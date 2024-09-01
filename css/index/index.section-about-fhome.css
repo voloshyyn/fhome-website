@@ -92,7 +92,7 @@
 
 .about-fhome__catalogue {
     margin-top: 45px;
-    background: url("/img/about-fhome/backround-catalogue-download.svg");
+    background-image: url(../img/about-fhome/backround-catalogue-download.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 0%;
