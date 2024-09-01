@@ -162,11 +162,11 @@
 
 .header-nav__socials-link {
     fill: var(--icon-nav);
+    transition: 0.3s;
 }
 
 .header-nav__socials-link:hover {
     fill: var(--hover-icon-nav);
-    transition: 0.5s;
 }
 
 @media (min-width:770px) {

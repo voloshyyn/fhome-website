@@ -31,7 +31,7 @@
     line-height: 53px;
     letter-spacing: normal;
     text-align: center;
-    color: var(--hero-main-text);
+    color: var(--main-text);
 }
 
 .header-hero__title-span-letter {

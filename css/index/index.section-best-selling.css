@@ -12,7 +12,7 @@
     line-height: 39px;
     letter-spacing: normal;
     text-align: center;
-    color: var(--best-selling-main-text);
+    color: var(--main-text);
 }
 
 .best-selling__title-highlight {

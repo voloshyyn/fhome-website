@@ -17,16 +17,14 @@
     --hover-icon-nav: rgb(117, 137, 116);
     --navicon-burger-menu: black;
     --nav-burger-menu-fill: #ece8e6;
-    --hero-main-text: #2F3133;
+    --main-text: #2F3133;
     --hero-main-text-letter: #8C9E8A;
     --hero-description-text: #707070;
     --hero-description-text-link: #8C9E8A;
-    --offers-main-text: #2F3133;
     --offers-description-text: #707070;
     --offers-details-text: #8D8D8D;
     --offers-item-text: #707070;
     --offers-item-dash: #8C9E8A;
-    --best-selling-main-text: #2F3133;
     --best-selling-main-text-two-words: #8C9E8A;
     --best-selling-subtitle-text: #8C9E8A;
     --best-selling-background-advertisement: #464c5c;
@@ -36,6 +34,18 @@
     --best-selling-background-button: #8C9E8A;
     --best-selling-button-text: #fff;
     --best-selling-slick-arrow: #2f3133;
+    --about-fhome-pride-text: #707070;
+    --about-fhome-description-text: #8D8D8D;
+    --about-fhome-catalogue-description-text: #707070;
+    --about-fhome-background-button: #917962;
+    --about-fhome-background-button-hover: #8C9E8A;
+    --about-fhome-background-button-catalogue: #8C9E8A;
+    --about-fhome-background-button-border-catalogue: #8C9E8A;
+    --about-fhome-button-text-catalogue: #8C9E8A;
+    --about-fhome-button-image-catalogue: #8C9E8A;
+    --about-fhome-button-text-catalogue-hover: #fff;
+    --about-fhome-button-text: #fff;
+    --about-fhome-main-catalogue-text: #2F3133;
 }
 
 header {
