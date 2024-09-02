@@ -46,6 +46,15 @@
     --about-fhome-button-text-catalogue-hover: #fff;
     --about-fhome-button-text: #fff;
     --about-fhome-main-catalogue-text: #2F3133;
+    --turnkey-furnishing-subtitle-text: #707070;
+    --turnkey-furnishing-background: #f7f4f0;
+    --turnkey-furnishing-background-project: #fff;
+    --turnkey-furnishing-main-project-text: #2F3133;
+    --turnkey-furnishing-description-project-text: #8D8D8D;
+    --turnkey-furnishing-item-text: #707070;
+    --turnkey-furnishing-button-text: #fff;
+    --turnkey-furnishing-button-background: #917962;
+    --turnkey-furnishing-background-button-hover: #8C9E8A;
 }
 
 header {
