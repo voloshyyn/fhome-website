@@ -55,6 +55,12 @@
     --turnkey-furnishing-button-text: #fff;
     --turnkey-furnishing-button-background: #917962;
     --turnkey-furnishing-background-button-hover: #8C9E8A;
+    --sherpa-armchair-price-text: #8C9E8A;
+    --sherpa-armchair-description-text: #707070;
+    --sherpa-armchair-category-text: #2F3133;
+    --sherpa-armchair-button-background: #917962;
+    --sherpa-armchair-number-text: #2F3133;
+    --sherpa-armchair-button-text: #2F3133;
 }
 
 header {
@@ -68,8 +74,6 @@ body {
     scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
 }
-
-
 
 h2 {
     font-family: "Archivo", sans-serif;

@@ -1,0 +1,161 @@
+.sherpa-armchair {
+    padding: 120px 0 90px;
+    background-image: url(/img/sherpa-armchair/sherpa-armchair-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 68.8% 0%;
+}
+
+.sherpa-armchair__container {
+    padding: 0 24px;
+}
+
+.sherpa-armchair__number-text {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2.2px;
+    text-align: left;
+    color: var(--sherpa-armchair-number-text);
+}
+
+.sherpa-armchair__title {
+    margin-top: 20px;   
+}
+
+.sherpa-armchair__title-text {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+    letter-spacing: normal;
+    color: var(--main-text);
+}
+
+.sherpa-armchair__price {
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 25px;
+    color: var(--sherpa-armchair-price-text);
+}
+
+.sherpa-armchair__description {
+    margin-top: 25px;
+}
+
+.sherpa-armchair__description-text {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25.5px;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--sherpa-armchair-description-text);
+}
+
+.sherpa-armchair__category {
+    margin-top: 20px;
+}
+
+.sherpa-armchair__category-text {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    line-height: 18px;
+    text-align: left;
+    color: var(--sherpa-armchair-category-text);
+}
+
+.sherpa-armchair__video {
+    margin-top: 20px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.sherpa-armchair__video-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sherpa-armchair-button-background);
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.sherpa-armchair__video-icon {
+    width: 26px;
+    height: 30px;   
+}
+
+.sherpa-armchair__video-text {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26.5px;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--sherpa-armchair-button-text);
+}
+
+@media (min-width: 768px) {
+    .sherpa-armchair {
+        padding: 275px 0 95px;
+    }
+    
+    .sherpa-armchair__container {
+        padding: 0 32px;
+    }
+
+    .sherpa-armchair__content {
+        max-width: 37%;
+    }
+
+    .sherpa-armchair__title-text {
+        font-size: 33px;
+        line-height: 43px;
+    }
+
+    .sherpa-armchair__video-link {
+        width: 70px;
+        height: 70px;
+        border-radius: 40px;
+    }
+    
+    .sherpa-armchair__video-icon {
+        width: 40px;
+        height: 44px;   
+    }
+}
+
+@media (min-width: 1000px) {
+    .sherpa-armchair {
+        padding: 400px 0 100px;
+    }
+    
+    .sherpa-armchair__container {
+        padding: 0 40px;
+    }
+
+    .sherpa-armchair__content {
+        max-width: 40%;
+    }
+
+    .sherpa-armchair__title-text {
+        font-size: 36px;
+        line-height: 47px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sherpa-armchair__container {
+        padding: 0 15px;
+    }
+
+    .sherpa-armchair__content {
+        max-width: 42%;
+    }
+}
