@@ -61,6 +61,13 @@
     --sherpa-armchair-button-background: #917962;
     --sherpa-armchair-number-text: #2F3133;
     --sherpa-armchair-button-text: #2F3133;
+    --innovations-description-text: #707070;
+    --innovations-main-image-text: #FFFFFF;
+    --innovations-description-image-text: #FFFFFFDE;
+    --innovations-cta-link-text: #8C9E8A;
+    --innovations-border-cta-heading-text: rgba(47, 49, 51, 0.3);
+    --innovations-cta-description-text: #8D8D8D;
+    --innovations-cta-action-link-text: #8C9E8A;
 }
 
 header {
