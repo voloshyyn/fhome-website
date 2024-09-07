@@ -68,6 +68,11 @@
     --innovations-border-cta-heading-text: rgba(47, 49, 51, 0.3);
     --innovations-cta-description-text: #8D8D8D;
     --innovations-cta-action-link-text: #8C9E8A;
+    --benefits-number-text: #707070;
+    --benefits-description-text: #707070;
+    --benefits-item-main-text: #2F3133;
+    --benefits-item-description-text: #8D8D8D;
+    --benefits-background: #e5e9e2;
 }
 
 header {
